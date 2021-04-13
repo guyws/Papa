@@ -1,2 +1,3 @@
 # Papa
-Discord bot who goes into your voice channel and curses you every 10 seconds
+Discord bot that goes into your voice channel and curses you every 10 seconds
+made with discord.py 
