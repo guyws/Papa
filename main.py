@@ -69,4 +69,4 @@ async def check_for_papa(voice_channel):
         if str(member.id) == my_id:
             await cr.say_something("hi papa")
 
-bot.run("ODMwMTQyNTM2OTQ5NTYzNDEy.YHCYfA.nbCxIGcaSWB3zt1YKeLzOr3v4RA")
+bot.run("BOT TOKEN GOES HERE")
