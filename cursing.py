@@ -68,7 +68,7 @@ class Curses:
 
         if not self.vc.is_playing:
             self.vc.play(discord.FFmpegPCMAudio(source="curse.mp3", executable=
-            "C:\\Users\\c4317\\Downloads\\ffmpeg-20200831-4a11a6f-win64-static\\ffmpeg-20200831-4a11a6f-win64-static\\bin\\ffmpeg.exe"))
+            "super seceret path\\ffmpeg-20200831-4a11a6f-win64-static\\ffmpeg-20200831-4a11a6f-win64-static\\bin\\ffmpeg.exe"))
         self.running = True
         time0 = datetime.datetime.now()
         time_wanted = int(time0.strftime("%S")) + 10
@@ -78,7 +78,7 @@ class Curses:
                 print(f"""tine0 -  {time0.strftime("%S")} time wanted - {time_wanted}""")
                 self.save_random_curse_to_file()
                 self.vc.play(discord.FFmpegPCMAudio(source="curse.mp3", executable=
-                "C:\\Users\\c4317\\Downloads\\ffmpeg-20200831-4a11a6f-win64-static\\ffmpeg-20200831-4a11a6f-win64-static\\bin\\ffmpeg.exe"))
+                "super seceret path\\ffmpeg-20200831-4a11a6f-win64-static\\ffmpeg-20200831-4a11a6f-win64-static\\bin\\ffmpeg.exe"))
                 print("[DEBUG6]")
                 time0 = datetime.datetime.now()
                 if int(time0.strftime("%S")) + 10 <= 60:
@@ -97,4 +97,4 @@ class Curses:
             continue
 
         self.vc.play(discord.FFmpegPCMAudio(source="jesus.mp3", executable=
-        "C:\\Users\\c4317\\Downloads\\ffmpeg-20200831-4a11a6f-win64-static\\ffmpeg-20200831-4a11a6f-win64-static\\bin\\ffmpeg.exe"))
+        "super seceret path\\ffmpeg-20200831-4a11a6f-win64-static\\ffmpeg-20200831-4a11a6f-win64-static\\bin\\ffmpeg.exe"))
