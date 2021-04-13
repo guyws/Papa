@@ -25,18 +25,6 @@ async def on_message(message):
     await bot.process_commands(message)
 
 
-@bot.command
-async def do_us(message):
-    # await cr.do_stuff()
-    # await message.add_reaction("😏")
-    pass
-
-
-@bot.command
-async def overkill(msg):
-    await msg.channel.send("F [DEBUG]")
-
-
 @bot.command()
 async def join(ctx):
     print("[DEBUG1]")
@@ -47,7 +35,7 @@ async def join(ctx):
         print("[DEBUG3]")
         await ctx.channel.send("yelllllllowwwwwwwwwww fuckers")
         vc.play(discord.FFmpegPCMAudio(source="yay.mp3", executable=
-        "C:\\Users\\c4317\\Downloads\\ffmpeg-20200831-4a11a6f-win64-static\\ffmpeg-20200831-4a11a6f-win64-static\\bin\\ffmpeg.exe"))
+        "super seceret path\\ffmpeg-20200831-4a11a6f-win64-static\\ffmpeg-20200831-4a11a6f-win64-static\\bin\\ffmpeg.exe"))
         print("[DEBUG4]")
         await ctx.add_reaction("🍆")
         cr.set_vc(vc)
